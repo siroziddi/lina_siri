@@ -1,0 +1,118 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+li a{
+	font-weight: 500;
+}
+.styles_form{
+	border-radius: 15px;
+	border: 1px solid #7399ff;
+	padding: 5px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.content{
+	text-align: center;
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #656565;
+    line-height: 35px;
+}
+.content_img{
+	margin-top: 60px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.services i{
+	margin-top: 15px;
+	color: #50965c;
+	text-align: center;
+}
+
+.card-hei{
+	height: 365px;
+	border: 1px solid #50965c;
+}
+.page-header{
+	position: relative;
+	height: 500px;
+	max-width: 1920px;
+	margin:auto ;
+}
+.page-header .page-header-image{
+	position: absolute; 
+	background-size:cover ;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.page-header .content-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	max-width: 880px;
+	padding: 0 15px;
+}
+.page-header .title{
+	font-size: 55px;
+	color: #fff;
+}
+.page-header-image::before{
+	background-color: rgb(0, 0, 0, 0.3);
+}
+.page-header-image::after, .page-header-image::before{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	left: 0;
+		top: 0;
+}
+.title{
+	background-color: black;
+	width: 650px;
+}
+.article{
+	color:grey;
+}
+.line{
+	color: #fff	;
+}
+.gallery-list li{
+	display: inline;
+	color:gray;
+	padding-right: 10px;
+	font-weight: bold;	
+}
+.gallery-list li:hover{
+color: black;
+}
+.gallery-list {
+	text-align: center;
+}
+.siro-gallery img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.page-footer {
+	background-color:#DCDCDC;
+	text-align: center;
+	
+
+}
+.flex-center i{
+	margin-right: 50px;
+	color: gray;
+
+}
+.navbar-nav{
+	margin-left: 607px;
+}
